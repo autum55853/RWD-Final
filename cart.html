@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Meals
+    </title>
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html" class="header-logo"></a>
+        <ul class="nav">
+            <li>
+                <a href="cart.html">餐點與特色 <i class="fas fa-burger-soda pd-left_10"></i></a>
+            </li>
+            <li>
+                <a href="#">核心人物 <i class="fas fa-hat-chef pd-left_10"></i></a>
+            </li>
+            <li>
+                <a href="#location">如何前往<i class="fas fa-map-marker-alt pd-left_10"></i></a>
+            </li>
+            <li>
+                <a href="login.html"><i class="fas fa-user-friends pd-left_10"></i></a>
+            </li>
+        </ul>
+        <button class="mobile_nav"><i class="fas fa-bars"></i></button>
+    </div>
+    <div class="banner">
+        <div class="title pd_10">
+            <h1>咬一口就無法忘懷的漢堡</h1>
+            <p>七夕絕對無法錯過的好滋味<br>
+                <span class="material-icons">
+                    restaurant
+                </span>
+                六角大漢堡
+                <span class="material-icons">
+                    restaurant
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="meals">
+    <div class="left_menu">
+        <h3><i class="fas fa-leaf pd-right_10"></i>線上訂購美食</h3>
+        <ul>
+            <li>全部 (23)</li>
+            <li>只愛吃薯條 (18)</li>
+            <li>加熱就可食 (1)</li>
+            <li>不敗漢堡系列 (4)</li>
+        </ul>
+    </div>
+    <div class="right_content ml_30">
+        <div class="mealsCart" id="addcart">
+            <div class="meals_search">
+                <input type="text" class="search" name="search" id="search" placeholder="發現更多">
+                <button class="search_btn"><i class="fas fa-search"></i></button>  
+            </div>
+            <div class="cartInfo">
+                <a href="#" class="account pd-right_10">結帳去</a>
+                <a href="#"><i class="fas fa-shopping-cart pd-left_10"></i></a>
+                <span class="addproduct">1</span>
+            </div>
+        </div>
+        <div class="mealsContent mt_30">
+            <div class="card_meals">
+                <img src="./assets/images/product_1.png" alt="ClassicHamburger">
+                <i class="far fa-heart"></i>
+                <div class="ribbon-wrap">
+                    <div class="ribbon">熱銷美食</div>
+                </div>
+                <h5>經典漢堡套餐</h5>
+                <p>Classic Hamburger Package</p>
+                <p class="mealPrice">$120</p>
+                <button class="addCart"><a href="#addcart"><i class="fas fa-shopping-cart pd-right_10"></i>加入購物車</a></button>
+            </div>
+            <div class="card_meals">
+                <img src="./assets/images/product_2.png" alt="Sausage">
+                <i class="far fa-heart"></i>
+                <h5>英俊香腸</h5>
+                <p>Handsome Sausage</p>
+                <p class="mealPrice">$1024</p>
+                <button class="addCart"><a href="#addcart"><i class="fas fa-shopping-cart pd-right_10"></i>加入購物車</a></button>
+            </div>
+            <div class="card_meals">
+                <img src="./assets/images/product_3.png" alt="Hamburg Brothers">
+                <i class="far fa-heart"></i>
+                <h5>漢堡兄弟</h5>
+                <p>Hamburg Brothers</p>
+                <p class="mealPrice">$792</p>
+                <button class="addCart"><a href="#addcart"><i class="fas fa-shopping-cart pd-right_10"></i>加入購物車</a></button>
+            </div>
+            <div class="card_meals">
+                <img src="./assets/images/product_4.png" alt="Dragon Ball">
+                <i class="far fa-heart"></i>
+                <h5>完美願望</h5>
+                <p>Dragon Ball Package</p>
+                <p class="mealPrice">$999,999<p>
+                <button class="addCart"><a href="#addcart"><i class="fas fa-shopping-cart pd-right_10"></i>加入購物車</a></button>
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+    </div>
+    
+
+    <footer class="footer pd_10 pd-top_50">
+        <div class="footer_content">
+            <div class="About pd_30">
+                <h2 class="mb_30">關於六角餐廳</h2>
+                <p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. </p>
+            </div>
+            <div class="contact pd_30">
+                <h2 class="mb_30">聯絡方式</h2>
+                <ul>
+                    <li><a href="https://www.google.com.tw/maps/search/%E9%AB%98%E9%9B%84%E8%BB%9F%E9%AB%94%E5%9C%92%E5%8D%80/@22.6053181,120.3007221,19z?hl=zh-TW" target="_blank">高雄市中正五路到底</a></li>
+                    <li><a href="tel:+886 886 886">+886 886 886</a></li>
+                    <li><a href="mailto:service@hexschool.com">service@hexschool.com</a> </li>
+                </ul>
+            </div>
+            <div class="socialMedia pd_30">
+                <h1 class="mb_30">六角西餐廳</h1>
+                <ul class="socialMedia-links">
+                    <li>
+                        <a href="#"><i class="fab fa-google-plus-square fz_xl"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter-square fz_xl"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-square fz_xl"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
